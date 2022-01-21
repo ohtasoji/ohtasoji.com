@@ -48,6 +48,8 @@ defaults:
     values:
       permalink: /articles/:slug
 
+google_analytics: G-27KZ4RVYF7
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
