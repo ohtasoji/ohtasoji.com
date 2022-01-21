@@ -18,6 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+production_url : https://ohtasoji.com
+BASE_PATH : https://ohtasoji.com
+
 title: ohtasoji.com
 email: ohtasoji0715@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -42,7 +46,7 @@ defaults:
       path: ""
       type: "articles"
     values:
-      permalink: /article/:slug
+      permalink: /articles/:slug
 
 # Exclude from processing.
 # The following items will not be processed, by default.
