@@ -14,7 +14,7 @@ layout: default
   {%- if site.articles.size > 0 -%}
     <!-- <h2 class="article-list-heading">{{ page.list_title | default: "Article" }}</h2> -->
     <ul class="article-list">
-      {%- for article in site.articles -%}
+      {%- for article in site.articles reversed -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%Y年%m月%d日" -%}
         <span class="article-meta">{{ article.date | date: date_format }}</span>
